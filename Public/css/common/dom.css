@@ -1,0 +1,174 @@
+@charset "utf-8";
+#screen{
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+    padding: 0px;
+}
+body{
+    color: #666;
+    background: #EEEEEE url(/Public/images/body_bg.png) repeat;
+}
+/** 导航栏 */
+#navBar{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #222222;
+}
+#navBar > .navbar{
+    margin: 0 auto;
+    text-align: center;
+    //width: 98%;
+    border-color: #222222;
+    //max-width: 1024px;
+}
+/** 导航栏 end */
+
+/** 顶部横幅和广告 */
+#topBar{
+    clear: both;
+    /*background-color: #1a6ecc;*/
+    background-color: #2f8912;
+    height: 220px;
+}
+#topBar > div{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -220px;
+}
+#topBar > div > #banner{
+    //background-color: green;
+    height: 100%;
+    padding-top: 60px;
+    display: none;
+}
+/** 顶部横幅和广告 end */
+
+/** 左侧边栏菜单样式 begin */
+.left-menu{
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-color: #dddddd;
+    border-bottom: 1px #428bca solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 0px 15px;
+}
+.left-menu-ul{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-color: #dddddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** 左侧边栏菜单样式 end */
+
+/** 内容 */
+#content{
+    clear: both;
+    //width: 98%;
+    //max-width: 1024px;
+    margin: 20px auto;
+    line-height: 1.334;
+    font-size: 12.7px;
+    min-height: 577px;
+}
+#content > #leftBar{
+    float: left;
+    width: 18%;
+    height: 100%;
+    //background-color: blue;
+}
+#content > #listBar{
+    float: left;
+    width: 62%;
+    height: 100%;
+    padding: 0px 20px;
+    //background-color: green;
+}
+#content > #rightBar{
+    float: left;
+    width: 20%;
+    height: 100%;
+    //background-color: red;
+}
+#stateRead > .panel-body,
+#stateZan > .panel-body,
+#stateVisit > .panel-body,
+#onlineTools > .panel-body{
+    padding: 0px;
+}
+#stateRead > .panel-body > .list-group,
+#stateZan > .panel-body > .list-group,
+#stateVisit > .panel-body > .list-group,
+#onlineTools > .panel-body > .list-group{
+    margin-bottom: 0px;
+}
+#stateRead > .panel-body > .list-group > list-group-item,
+#stateZan > .panel-body > .list-group > list-group-item,
+#stateVisit > .panel-body > .list-group > list-group-item,
+#onlineTools > .panel-body > .list-group > list-group-item{
+    padding-right: 5px;
+}
+#stateRead > .panel-body > .list-group > a > span,
+#stateZan > .panel-body > .list-group > a > span,
+#stateVisit > .panel-body > .list-group > a > span,
+#onlineTools > .panel-body > .list-group > a > span{
+    height: 21px;
+    overflow: hidden;
+    display: inline-block;
+    padding-top: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+/** 内容 end */
+
+/** 尾部 */
+#footer{
+    clear: both;
+    height: 50px;
+    background-color: #1a6ecc;
+}
+#footer > div{
+    height: 100%;
+    margin: 0px auto;
+    padding: 15px 5px 0px 5px;
+    text-align: center;
+    color: #F5F5F5;
+    /*background-color: green;*/
+}
+#footer > div > a{
+    color: #F5F5F5;
+    /*text-decoration: underline;*/
+    font-weight: bold;
+}
+/** 尾部 end */
+
+/** 面包屑 begin */
+.view-breadcrumb{
+    margin-bottom: 0px;
+    padding-left: 15px;
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-color: #dddddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** 面包屑 end */
+
+/** 查看页内容panel begin */
+.view-panel{
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-color: #dddddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** 查看页内容panel end */
